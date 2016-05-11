@@ -20,9 +20,9 @@ public class Premium extends AbsSalon {
             System.out.println("Total                   : Rp."+total);
         }
         else if(Jasa.equalsIgnoreCase("Layanan manicure")){
-            int total = pedicure - (pedicure * 20 / 100);
+            int total = manicure - (manicure * 20 / 100);
             System.out.println("jenis pelayanan         : "+Jasa);
-            System.out.println("Harga asli              : Rp."+pedicure);
+            System.out.println("Harga asli              : Rp."+manicure);
             System.out.println("Discount untuk anggota  :  20%");
             System.out.println("Total                   : Rp."+total);
         }
