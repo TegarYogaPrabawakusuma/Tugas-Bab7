@@ -12,14 +12,14 @@ package Praktikum;
 public class Gold extends AbsSalon {
    @Override
     public void jasa(String Jasa) {
-        if (Jasa.equalsIgnoreCase("Layanan Pedicure")){
+        if (Jasa.equalsIgnoreCase("pedicure")){
             int total = pedicure - (pedicure * 15 / 100);
             System.out.println("jenis pelayanan         : "+Jasa);
             System.out.println("Harga asli              : Rp."+pedicure);
             System.out.println("Discount untuk anggota  :  15%");
             System.out.println("Total                   : Rp."+total);
         }
-        else if(Jasa.equalsIgnoreCase("Layanan manicure")){
+        else if(Jasa.equalsIgnoreCase("manicure")){
             int total = manicure - (manicure * 15 / 100);
             System.out.println("jenis pelayanan         : "+Jasa);
             System.out.println("Harga asli              : Rp."+manicure);
@@ -32,14 +32,14 @@ public class Gold extends AbsSalon {
     } 
     @Override
     public void barang(String  Barang){
-        if (Barang.equalsIgnoreCase("produk krim untuk pemutih kulit")){
+        if (Barang.equalsIgnoreCase("krimputih")){
             int total = KrimPutih - (KrimPutih * 10 / 100);
             System.out.println("jenis pelayanan            : "+Barang);
             System.out.println("Harga asli                 : Rp."+KrimPutih);
             System.out.println("Discount untuk anggota     :  10%");
             System.out.println("Total                      : "+total);
         }
-        else if(Barang.equalsIgnoreCase("produk krim untuk mengobati jerawat")){
+        else if(Barang.equalsIgnoreCase("krimjerawat")){
             int total = KrimJerawat -(KrimJerawat * 10 / 100);
             System.out.println("Layanan     : "+Barang);
             System.out.println("Harga Awal  : Rp."+KrimJerawat);

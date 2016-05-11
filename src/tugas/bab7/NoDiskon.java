@@ -13,11 +13,11 @@ public class NoDiskon extends AbsSalon{
    
     @Override
     public void jasa(String Jasa) {
-        if (Jasa.equalsIgnoreCase("Layanan perawatan pedicure")){
+        if (Jasa.equalsIgnoreCase("pedicure")){
             System.out.println("Jenis Pelayanan                : "+Jasa);
             System.out.println("Harga yang harus dibayar       : Rp."+pedicure);
         }
-        else if(Jasa.equalsIgnoreCase("Layanan perawatan manicure")){
+        else if(Jasa.equalsIgnoreCase("manicure")){
             System.out.println("Jenis Pelayanan               : "+Jasa);
             System.out.println("Harga yang harus dibayar      : Rp."+manicure);
         }
@@ -28,11 +28,11 @@ public class NoDiskon extends AbsSalon{
    
     @Override
     public void barang(String Barang){
-        if (Barang.equalsIgnoreCase("Pembelian Produk Bedak Gatal")){
+        if (Barang.equalsIgnoreCase("krimputih")){
             System.out.println("Jenis Pelayanan              : "+Barang);
             System.out.println("Harga yang harus dibayar     : Rp."+KrimPutih);
         }
-        else if(Barang.equalsIgnoreCase("Pembelian Produk Krim Jerawat")){
+        else if(Barang.equalsIgnoreCase("krimjerawat")){
             System.out.println("Jenis Pelayanan               : "+Barang);
             System.out.println("Harga yang harus dibayar      : Rp."+KrimJerawat);
         }
