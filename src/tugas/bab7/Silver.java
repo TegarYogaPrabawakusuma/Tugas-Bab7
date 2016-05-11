@@ -33,7 +33,7 @@ public class Silver extends AbsSalon {
     }
      
     @Override
-    public void barang(String Broduk){
+    public void barang(String Barang){
         if (Barang.equalsIgnoreCase("krimputih")){
            int total = KrimPutih - (KrimPutih * 10 / 100);
             System.out.println("jenis pelayanan            : "+Barang);
