@@ -16,8 +16,8 @@ public abstract class AbsSalon {
     public abstract void barang(String Barang); 
    public final int pedicure = 50000;
     public final int manicure = 100000;
-    public final int BedakGatal = 25000;
-    public final int BedakJerawat = 50000; 
+    public final int KrimPutih = 25000;
+    public final int KrimJerawat = 50000; 
    
     
 }
